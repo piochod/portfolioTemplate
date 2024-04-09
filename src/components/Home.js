@@ -6,7 +6,7 @@ const Home = () => {
   return (
     <div className="homeSection" id='home'>
       <div className='left'>
-          <img src="src/icons/avatar.svg" />
+          <img src="icons/avatar.svg" />
           <h2>Piotr Chodkowski</h2>
           <p>Web Developer</p>
       </div>
