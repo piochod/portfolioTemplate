@@ -6,7 +6,7 @@ const Home = () => {
   return (
     <div className="homeSection" id='home'>
       <div className='left'>
-          <img src="src/icons/avatar.svg" />
+          <img src="https://raw.githubusercontent.com/piochod/portfolioTemplate/7f1d9f9e888a1c2efb9eb6cc366577356ed23d9d/src/icons/avatar.svg" />
           <h2>Piotr Chodkowski</h2>
           <p>Web Developer</p>
       </div>
