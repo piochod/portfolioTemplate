@@ -9,7 +9,7 @@ const About = () => {
         <div className='right'>
           <h2>Technologies</h2>
           <p>
-            <img src='logo192.png' />
+            <img src='src/icons/logo192.png' />
 
           </p>
         </div>
