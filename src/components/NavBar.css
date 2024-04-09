@@ -64,6 +64,10 @@ nav{
     color: rgb(29, 29, 248);
   }
   
+  nav ul li .active{
+    color: rgb(29, 29, 248);
+  }
+
   
   @media (max-width: 480px){
     .menu{
@@ -76,10 +80,13 @@ nav{
       flex-direction: column;
       width: 100%;
       margin-bottom: 10px;
+      height: 0;
+      overflow: hidden;
     }
   
     nav ul.open{
       display: flex;
+      height: auto;
     }
   
     nav ul li {
