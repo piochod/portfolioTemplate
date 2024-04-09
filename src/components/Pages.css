@@ -3,9 +3,9 @@
 .homeSection{
     height: 100vh;
     width: 100%;
-    color: white;
+    color: black;
     display: flex;
-    background-color: rgb(29, 29, 248);
+    background-image: conic-gradient(from 90deg at -10% 100%, #bcc1cd 0deg, #bcc1cd 90deg, #fff 1turn);
 }
 
 .aboutSection{
@@ -14,7 +14,8 @@
     display: flex;
     margin: 0 auto;
     text-align: center;
-    background-color: azure;
+    background-image: conic-gradient(from 90deg at -10% 100%, #bcc1cd 0deg, #bcc1cd 90deg, #fff 1turn);
+
 }
 
 label{
@@ -24,12 +25,13 @@ label{
 
 
 .contactSection{
+    background-image: conic-gradient(from 90deg at -10% 100%, #bcc1cd 0deg, #bcc1cd 90deg, #fff 1turn);
     height: 100vh;
 }
 
 .formSec{
     padding: 16px;
-
+    
     max-width: 400px;
     margin: 0 auto;
     text-align: center;
@@ -45,6 +47,7 @@ input, textarea{
     
     padding: 6px;
     border: 1px solid #ddd;
+    border-radius: 8px;
     box-sizing: border-box;
     display: block;
 

@@ -1,6 +1,8 @@
 import React from 'react'
 
 const Contact = () => {
+
+
   return (
     <div className='contactSection' id='contact'>
       <div className='formSec'>
